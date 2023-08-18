@@ -16,6 +16,19 @@
     padding: 4px;
 }
 
-
+@media screen and (max-width: 640px) {
+    .skillsetcontainer{
+        padding: 2rem 1rem;
+        margin: auto;
+        max-width: 300px;
+    }
+    .skillset{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        position: relative;
+        align-items: center;
+        text-align: center;
+    }
+}
 
 
