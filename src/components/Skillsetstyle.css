@@ -1,0 +1,21 @@
+.skillsetcontainer{
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+}
+.skillset{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.imgd{
+    height: 80px;
+    width: 80px;
+    padding: 4px;
+}
+
+
+
+
