@@ -38,7 +38,8 @@ const Footer = () => {
                     MS in computer science at purdue university</p>
                 <div className="social">
                     <FaLinkedin size={20} 
-                    style={{color:"#fff", marginRight:"2rem"}} />
+                    style={{color:"#fff", marginRight:"2rem"}} 
+                    onClick={()=>window.open('https://www.linkedin.com/in/rohith-medisetty-a537411b2/','_blank')} />
                 </div>
             </div>
         </div>
