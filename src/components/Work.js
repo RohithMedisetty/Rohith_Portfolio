@@ -12,7 +12,7 @@ const Work = () => {
                 return(
                     <Workcard 
                     key = {ind}
-                    imgsrc={val.imgsrc}
+                    imgsrc={val.picture}
                     title={val.title}
                     text={val.text}
                     view={val.view}

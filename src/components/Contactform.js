@@ -10,7 +10,7 @@ const Contactform = () => {
 
   const handleSubmit=(e)=>{
     e.preventDefault();
-    if(name.length==0||email.length==0||subject.length==0||Message.length==0){
+    if(name.length===0||email.length===0||subject.length===0||Message.length===0){
       setError(true);
     }
     if(name&&email&&subject&&Message){
