@@ -1,5 +1,5 @@
 {
-  "homepage":"http://RohithMedisetty.github.io/Rohith_Portfolio",
+  "homepage": "http://RohithMedisetty.github.io/Rohith_Portfolio",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^6.0.0"
   }
 }
