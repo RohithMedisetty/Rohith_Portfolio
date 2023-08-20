@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2c07a8e5.css",
+    "main.js": "/static/js/main.d7bd8caa.js",
+    "static/media/airlineproject.png": "/static/media/airlineproject.17c1addf54fde9d2eba1.png",
+    "static/media/portfolio.png": "/static/media/portfolio.8100fd1635ac8cc8fa10.png",
+    "static/media/intro-bg.jpg": "/static/media/intro-bg.cf2364827d8b8a98642e.jpg",
+    "static/media/Resume.pdf": "/static/media/Resume.3fea5b2c3dbf8af56738.pdf",
+    "static/media/react1.jpg": "/static/media/react1.d63ca3791694cd8f6f49.jpg",
+    "static/media/react2.webp": "/static/media/react2.8aa659a4278a7132e6f4.webp",
+    "index.html": "/index.html",
+    "main.2c07a8e5.css.map": "/static/css/main.2c07a8e5.css.map",
+    "main.d7bd8caa.js.map": "/static/js/main.d7bd8caa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c07a8e5.css",
+    "static/js/main.d7bd8caa.js"
+  ]
+}
