@@ -1,18 +1,20 @@
-import pro1 from "../assets/project1.png";
-import pro2 from "../assets/project2.png";
+import airline from "../assets/airlineproject.png";
+import portfolio from "../assets/portfolio.png";
 
-const ProjectCardData = [
+const ProjectCardData = [ 
     {
-        imgsrc: pro1,
-        title: "Ecommerce Website Design",
-        text: "Amazon.com, Inc. is an American multinational technology company focusing on e-commerce, cloud computing, online advertising, digital streaming, and artificial intelligence.",
-        view: "https://www.amazon.com/",
+        imgsrc: airline,
+        title: "Airline Reservation System",
+        text: "The purpose of our website is to create a convenient and easy-to-use system for buying airline tickets",
+        view: "",
+        source: "https://github.com/RohithMedisetty/Airlineproject",
     },
     {
-        imgsrc: pro2,
-        title: "Ecommerce Website Design",
-        text: "Amazon.com, Inc. is an American multinational technology company focusing on e-commerce, cloud computing, online advertising, digital streaming, and artificial intelligence.",
-        view: "https://www.amazon.com/",
+        imgsrc: portfolio,
+        title: "Portolio page",
+        text:"Portolio page using html,css,js,react containing four pages Home, Project, About and Contact. checkout code by clicking source button",
+        view: "",
+        source: "https://github.com/RohithMedisetty/Rohith_Portfolio.git",
     },  
 
     

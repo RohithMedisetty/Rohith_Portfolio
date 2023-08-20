@@ -13,11 +13,15 @@
 }
 
 .project-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: #1a1919;
     padding: 1.2rem 1rem;
 }
 
 .project-card img{
+    max-height: 70vh;
     width: 100%;
 }
 
