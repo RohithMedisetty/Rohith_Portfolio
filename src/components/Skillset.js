@@ -18,6 +18,7 @@ import resume from "../files/Resume.pdf"
 const Skillset = () => {
   return (
     <div className="skillsetcontainer">
+      <div className="skillsheading">Skills</div>
     <div className="skillset">
         
         <img src= {htmlimage} alt="html" className="imgd" />

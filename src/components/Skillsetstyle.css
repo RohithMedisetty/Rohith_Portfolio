@@ -1,5 +1,5 @@
 .skillsetcontainer{
-    padding: 4rem 1rem;
+    padding: 1rem 1rem;
     margin: auto;
     max-width: 600px;
 }
@@ -9,6 +9,13 @@
     position: relative;
     align-items: center;
     text-align: center;
+}
+.skillsheading{
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    font-size: 24px;
+    padding-bottom: 1rem;
 }
 .imgd{
     height: 80px;
