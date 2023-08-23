@@ -13,7 +13,7 @@ const ProjectCardData = [
         imgsrc: portfolio,
         title: "Portolio page",
         text:"Portolio page using html,css,js,react containing four pages Home, Project, About and Contact. checkout code by clicking source button",
-        view: "",
+        view: "https://rohithmedisetty.netlify.app/",
         source: "https://github.com/RohithMedisetty/Rohith_Portfolio.git",
     },  
     
