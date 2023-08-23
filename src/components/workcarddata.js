@@ -1,6 +1,7 @@
 import airline from "../assets/airlineproject.png";
 import portfolio from "../assets/portfolio.png";
-import todo from "../assets/todo.png"
+import todo from "../assets/todo.png";
+import wikisearch from "../assets/wikisearch.png";
 
 const ProjectCardData = [ 
     {
@@ -23,6 +24,13 @@ const ProjectCardData = [
         text:"A Simple ToDo Application built using HTML, CSS and JavaScript, that implements basic CRUD Functionality where one can create update and delete tasks",
         view: "",
         source: "https://github.com/RohithMedisetty/todocomplete",
+    }, 
+    {
+        imgsrc: wikisearch,
+        title: "wikisearch Application",
+        text:"A Simple clone of wikipedia search Application built using HTML, CSS, JavaScript, and Fetch API that performs any search and provide result",
+        view: "",
+        source: "https://github.com/RohithMedisetty/wikisearch",
     }, 
     
 ];
