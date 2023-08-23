@@ -1,5 +1,6 @@
 import airline from "../assets/airlineproject.png";
 import portfolio from "../assets/portfolio.png";
+import todo from "../assets/todo.png"
 
 const ProjectCardData = [ 
     {
@@ -16,6 +17,13 @@ const ProjectCardData = [
         view: "https://rohithmedisetty.netlify.app/",
         source: "https://github.com/RohithMedisetty/Rohith_Portfolio.git",
     },  
+     {
+        imgsrc: todo,
+        title: "Todo Application",
+        text:"A Simple ToDo Application built using HTML, CSS and JavaScript, that implements basic CRUD Functionality where one can create update and delete tasks",
+        view: "",
+        source: "https://github.com/RohithMedisetty/todocomplete",
+    }, 
     
 ];
 
