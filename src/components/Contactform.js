@@ -33,7 +33,7 @@ const Contactform = () => {
         console.log("Name: ", name,"\nEmail: ", email, "\nSubject: ", subject, "\nMessage: ", Message)
     }
     
-    emailjs.sendForm('service_ksr55fj', 'template_uqldnep', form.current, '-EgoWavbYInGzsRFy')
+    emailjs.sendForm('service_ksr55fj', 'template_tl6n38q', form.current, '-EgoWavbYInGzsRFy')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -53,7 +53,7 @@ const Contactform = () => {
             <label style={{color:"#d12e2e",fontSize:"9px"}}>Name can't be empty</label>:""}
 
             <label>Email</label>
-            <input onChange={e=>setemail(e.target.value)} name="useremail" type="email" ></input>
+            <input onChange={e=>setemail(e.target.value)} name="user_email" type="email" ></input>
             {error&&email.length<=0?
             <label style={{color:"#d12e2e",fontSize:"9px"}}>Email can't be empty</label>:""}
 
