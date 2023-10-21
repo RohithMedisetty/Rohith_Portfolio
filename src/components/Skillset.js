@@ -1,6 +1,6 @@
-import "./Skillsetstyle.css"
+import "./Skillsetstyle.css";
 
-import React from 'react'
+import React from "react";
 import htmlimage from "../assets/html.png";
 import cssimage from "../assets/css.png";
 import jsimage from "../assets/js.png";
@@ -13,35 +13,33 @@ import springimage from "../assets/spring.jpeg";
 import gitimage from "../assets/git.png";
 import jiraimage from "../assets/jira.png";
 import bootstrapimage from "../assets/bootstrap.jpeg";
-import resume from "../files/Resume.pdf"
+import resume from "../files/Resume.pdf";
 
 const Skillset = () => {
   return (
     <div className="skillsetcontainer">
       <div className="skillsheading">Skills</div>
-    <div className="skillset">
-        
-        <img src= {htmlimage} alt="html" className="imgd" />
-        <img src= {cssimage} alt="html" className="imgd" />
-        <img src= {jsimage} alt="html" className="imgd" />
-        <img src= {bootstrapimage} alt="html" className="imgd" />
-        <img src= {reactimage} alt="html" className="imgd" />
-        <img src= {nodeimage} alt="html" className="imgd" />
-        <img src= {jqueryimage} alt="html" className="imgd" />
-        <img src= {sqlimage} alt="html" className="imgd" />
-        <img src= {javaimage} alt="html" className="imgd" />
-        <img src= {springimage} alt="html" className="imgd" />
-        <img src= {gitimage} alt="html" className="imgd" />
-        <img src= {jiraimage} alt="html" className="imgd" />
-
-        </div> 
-        <div className='rsmbtn'>
-      <a href={resume} download="Rohith_Resume">
-            <button className="resumebtn">Resume</button>
+      <div className="skillset">
+        <img src={htmlimage} alt="html" className="imgd" />
+        <img src={cssimage} alt="html" className="imgd" />
+        <img src={jsimage} alt="html" className="imgd" />
+        <img src={bootstrapimage} alt="html" className="imgd" />
+        <img src={reactimage} alt="html" className="imgd" />
+        <img src={nodeimage} alt="html" className="imgd" />
+        <img src={jqueryimage} alt="html" className="imgd" />
+        <img src={sqlimage} alt="html" className="imgd" />
+        <img src={javaimage} alt="html" className="imgd" />
+        <img src={springimage} alt="html" className="imgd" />
+        <img src={gitimage} alt="html" className="imgd" />
+        <img src={jiraimage} alt="html" className="imgd" />
+      </div>
+      <div className="rsmbtn">
+        <a href={resume} download="Rohith_Resume">
+          <button className="resumebtn">Resume</button>
         </a>
-        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Skillset
+export default Skillset;
